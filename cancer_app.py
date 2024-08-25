@@ -28,6 +28,6 @@ if st.button('Predict'):
     
     # Show the result
     if type_of_cancer[0] == 1:
-        st.write("Malignant - Benign")
+        st.write("Malignant")
     else:
-        st.write("Benign - Malignant")
+        st.write("Benign")
